@@ -7,7 +7,7 @@ int main(int argc, const char* argv[]) {
   FILE* fout;
   int tab_interval;
 
-  bool ok = openfiles(argc, argv, &fin, &fout, &tab_interval, "Usage: ./detab inputfile outputfile tab_interval");
+  bool ok = openfiles(argc, argv, &fin, &fout, &tab_interval, "Usage: ./entab inputfile outputfile tab_interval");
   if(!ok) { return 1; }
 
   int c, nb, nt, position;

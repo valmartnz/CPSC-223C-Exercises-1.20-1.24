@@ -62,7 +62,7 @@ void printline(int position, FILE* fout) {
     }
 }
 
-int getblank(int pos) {
+int addblank(int pos) {
   if(pos > 0)
     while( line[pos] != ' ')
        --pos;
@@ -71,7 +71,7 @@ int getblank(int pos) {
   else
     return pos + 1;
 }
-int newposition( int pos) {
+int newpos(int pos) {
   int i,j;
 
   if(pos <= 0 || pos >= MAXLINE)

@@ -2,7 +2,6 @@
 #include <string.h>
 #include "files.h"
 
-
 int main(int argc, const char* argv[]) {
   FILE* fin;
   FILE* fout;
